@@ -76,3 +76,23 @@ textarea {
     line-height: 29px;
     line-height: 2rem;
 }
+
+@media screen and (max-width: 576px){
+    .Submitform{
+        display: flex;
+        overflow: hidden;
+        justify-content: center;
+        text-align: center;
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    body{
+        display: flex;
+        overflow-x: hidden;
+        justify-content: center;
+        text-align: center;
+        width: 280px;
+    }
+}
