@@ -415,7 +415,7 @@ body.dark-theme {
 }
 
 .gift__img {
-  width: 100px;
+  width: 200px;
   justify-self: center;
   margin-bottom: var(--mb-0-25);
   transition: .3s;
@@ -730,7 +730,7 @@ body.dark-theme {
   }
 
   .giving__container {
-    grid-template-columns: repeat(2, 142px);
+    grid-template-columns: repeat(2, 150px);
     justify-content: center;
     gap: 2.5rem 3.5rem;
   }
@@ -1162,4 +1162,13 @@ p {
   color: #fff;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
   transition: all 350ms linear;
+}
+
+
+/* Featured */
+.button__featured {
+  color: #e23f7e;
+}
+.button__featured:hover{
+  color: aqua;
 }
