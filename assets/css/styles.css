@@ -1194,6 +1194,16 @@ p {
   transition: all 350ms linear;
 }
 
+/* button for call to action twitter */
+.button__promotion .new__promotion{
+  font-size: 3rem;
+  color: aqua;
+}
+.new__promotion:hover{
+  color: #ddd;
+}
+
+
 
 /* Featured */
 .button__featured {
@@ -1202,3 +1212,4 @@ p {
 .button__featured:hover{
   color: aqua;
 }
+
